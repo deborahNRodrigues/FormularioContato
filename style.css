@@ -4,7 +4,7 @@ body{
     margin: 0px;
     padding: 0px;
     text-align: center;
-    background: linear-gradient(rgba(255,182,193, 0.5),rgba(255,182,193, 0.5)),url(../contato/teste.jpg);
+    background-image: url(teste.jpg);
     background-size: cover;
     background-position: center;
     font-family:Comic Sans MS, Comic Sans, cursive;
@@ -37,13 +37,13 @@ form{
     font-size: 18px;
     margin-bottom: 16px;
 }
+
+
 input{
     height: 45px;
     font-family:Comic Sans MS, Comic Sans, cursive;
 }
-.error{
-    color:#FF0000;
-}
+
 form .submit{
     background: #ff5722;
     border-color:transparent;
@@ -58,4 +58,9 @@ form .submit{
     background: #4B0082;
     cursor: pointer;
     font-family:Comic Sans MS, Comic Sans, cursive;
+}
+.error{
+    color: red;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+
 }
